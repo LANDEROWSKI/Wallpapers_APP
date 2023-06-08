@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "182852431893",
+    "project_id": "fondos-de-pantalla-6a0cc",
+    "storage_bucket": "fondos-de-pantalla-6a0cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182852431893:android:fcbd3372bf0cdda99d9e1c",
+        "android_client_info": {
+          "package_name": "com.erick.pg_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182852431893-e3obqrn1lidalbgpcm1k2ug1b5vb452r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erick.pg_project",
+            "certificate_hash": "ca911a13910e767c170451a478891aaf857bf01a"
+          }
+        },
+        {
+          "client_id": "182852431893-ep6gia1kff8nicfpjhpd5ell9mu2uglk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnely1MZN0OeRMEQiWiTne3yPsiGAS-lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182852431893-ep6gia1kff8nicfpjhpd5ell9mu2uglk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
