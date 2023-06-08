@@ -3,4 +3,11 @@
 
     <string name="desarrollador">Desarrollado Por: Erick Landero,
         Paulo Estrada y Angel Urey</string>
+
+    <!--Menu Admin-->
+    <string name="InicioAdmin">Inicio</string>
+    <string name="PerfilAdmin">Perfil</string>
+    <string name="RegistrarAdmin">Registrar</string>
+    <string name="ListarAdmin">Lista de Administradores</string>
+    <string name="Salir">Cerrar Sesión</string>
 </resources>
