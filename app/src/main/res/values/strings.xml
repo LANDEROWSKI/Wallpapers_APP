@@ -13,10 +13,10 @@
     <string name="RegistrarAdmin">Registrar</string>
     <string name="ListarAdmin">Lista de Administradores</string>
     <string name="Salir">Cerrar Sesión</string>
-    
+
     <!--Menu Cliente-->
     <string name="Opcionestxt">Opciones</string>
-    <string name="InicioCliente">Inicio</string>
+    <string name="InicioCliente">Galería</string>
     <string name="MasOpcionestxt">Más Opciones</string>
     <string name="AcercaDe">Acerca De</string>
     <string name="Compartir">Compartir</string>

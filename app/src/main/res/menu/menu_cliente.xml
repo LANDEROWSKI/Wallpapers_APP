@@ -25,11 +25,13 @@
         <menu>
             <item
                 android:id="@+id/AcercaDe"
-                android:title="@string/AcercaDe">
-            </item>
+                android:title="@string/AcercaDe"
+                android:icon="@drawable/acerca_de_ico"/>
+
             <item
                 android:id="@+id/Compartir"
-                android:title="@string/Compartir"></item>
+                android:title="@string/Compartir"
+                android:icon="@drawable/compartir_ico"/>
         </menu>
     </item>
 
