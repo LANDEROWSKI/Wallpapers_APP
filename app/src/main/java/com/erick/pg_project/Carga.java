@@ -28,7 +28,7 @@ public class Carga extends AppCompatActivity {
             @Override
             public void run() {
                 //Lo que ejecutaremos pasado los 3 segundos de la pantalla de  carga
-                Intent intent = new Intent(Carga.this, MainActivity.class);
+                Intent intent = new Intent(Carga.this, MainActivityAdministrador.class);
                 startActivity(intent);
                 finish();
             }
