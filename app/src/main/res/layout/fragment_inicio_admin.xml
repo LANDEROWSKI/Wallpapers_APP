@@ -1,16 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".FragmenrtosAdministrador.InicioAdmin">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="INICIO"
-        android:gravity="center"
-        android:textSize="25sp"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-</FrameLayout>
+        <TextView
+            android:text="@string/Eligeunacategoriatxt"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--FILA 1-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+
+            <!--ANIMES-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/animes"></androidx.appcompat.widget.AppCompatImageView>
+
+                <Button
+                    android:id="@+id/Animes"
+                    android:text="@string/Animes"
+                    android:background="#F976AA"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!--VIDEOJUEGOS-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/video"></androidx.appcompat.widget.AppCompatImageView>
+
+                <Button
+                    android:id="@+id/Videojuegos"
+                    android:text="@string/Videojuegos"
+                    android:textSize="15dp"
+                    android:background="#F976AA"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--FILA 2-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--PROGRAMACION-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/developer"></androidx.appcompat.widget.AppCompatImageView>
+
+                <Button
+                    android:id="@+id/Programacion"
+                    android:text="@string/Programacion"
+                    android:background="#F976AA"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <!--PELICULAS SERIES-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/bat"></androidx.appcompat.widget.AppCompatImageView>
+
+                <Button
+                    android:id="@+id/Pelicuas"
+                    android:text="@string/Pelicuas"
+                    android:background="#F976AA"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></Button>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

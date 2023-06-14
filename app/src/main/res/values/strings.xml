@@ -35,6 +35,14 @@
     <!--Login Administradores-->
     <string name="LoginTXT">Login de Administradores</string>
     <string name="Ingresar">Ingresar</string>
+    
+    <string name="Eligeunacategoriatxt">Elige Categoria</string>
+
+    <!--CATEGORIAS-->
+    <string name="Animes">ANIMES</string>
+    <string name="Videojuegos">VIDEOJUEGOS</string>
+    <string name="Programacion">PROGRAMACIÓN</string>
+    <string name="Pelicuas">PELÍCULAS/SERIES</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
