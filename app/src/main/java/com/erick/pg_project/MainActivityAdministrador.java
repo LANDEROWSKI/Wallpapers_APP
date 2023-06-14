@@ -8,6 +8,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -17,9 +18,14 @@ import com.erick.pg_project.FragmenrtosAdministrador.ListaAdmin;
 import com.erick.pg_project.FragmenrtosAdministrador.PerfilAdmin;
 import com.erick.pg_project.FragmenrtosAdministrador.RegistrarAdmin;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivityAdministrador extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout drawerLayout;
+    FirebaseAuth firebaseAuth;
+    FirebaseUser user;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +44,9 @@ public class MainActivityAdministrador extends AppCompatActivity implements Navi
 
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
+
+        firebaseAuth = firebaseAuth.getInstance();
+        user = firebaseAuth.getCurrentUser();
 
         //Fragmento por defecto
         if(savedInstanceState == null)
@@ -68,9 +77,35 @@ public class MainActivityAdministrador extends AppCompatActivity implements Navi
                         new ListaAdmin()).commit();
                 break;
             case R.id.Salir:
-                Toast.makeText(this, "Nos vemos luego Tilín", Toast.LENGTH_SHORT).show();;
+                CerrarSesion();
+                break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void ComprobandoInicioSesion(){
+        if(user!=null)
+        {
+            //Si el administrador ha iniciado sesion
+            Toast.makeText(this, "SE HA INICIADO SESIÓN", Toast.LENGTH_SHORT).show();
+        }else{
+            //Si no ha iniciado sesion es porque el usuario es un cliente
+            startActivity(new Intent(MainActivityAdministrador.this, MainActivity.class));
+            finish();
+        }
+    }
+
+    private void CerrarSesion()
+    {
+        firebaseAuth.signOut();
+        startActivity(new Intent(MainActivityAdministrador.this,MainActivity.class));
+        Toast.makeText(this, "CERRASTE SESIÓN CORRECTAMENTE", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onStart() {
+        ComprobandoInicioSesion();
+        super.onStart();
     }
 }

@@ -20,6 +20,21 @@
     <string name="MasOpcionestxt">Más Opciones</string>
     <string name="AcercaDe">Acerca De</string>
     <string name="Compartir">Compartir</string>
+    <string name="Acceder">Acceder</string>
+
+    <!--Registro de Administradores-->
+    <string name="RegistroTXT">Registro De Administradores</string>
+    <string name="Correo">Correo Electronico</string>
+    <string name="Password">Contraseña</string>
+    <string name="Nombres">Nombres Completos</string>
+    <string name="Apellidos">Apellidos Completos</string>
+    <string name="Edad">Edad</string>
+    <string name="FechaRegistro">Fecha De Registro</string>
+    <string name="Registrar">Registrar</string>
+
+    <!--Login Administradores-->
+    <string name="LoginTXT">Login de Administradores</string>
+    <string name="Ingresar">Ingresar</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
