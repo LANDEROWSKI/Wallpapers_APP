@@ -50,10 +50,10 @@
                 <Button
                     android:id="@+id/Animes"
                     android:text="@string/Animes"
-                    android:background="#F976AA"
+                    android:background="@drawable/btn_personalizado"
                     android:textColor="#fff"
                     android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"></Button>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -76,10 +76,11 @@
                     android:id="@+id/Videojuegos"
                     android:text="@string/Videojuegos"
                     android:textSize="15dp"
-                    android:background="#F976AA"
+                    android:background="@drawable/btn_personalizado"
                     android:textColor="#fff"
                     android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"></Button>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -116,10 +117,10 @@
                 <Button
                     android:id="@+id/Programacion"
                     android:text="@string/Programacion"
-                    android:background="#F976AA"
+                    android:background="@drawable/btn_personalizado"
                     android:textColor="#fff"
                     android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"></Button>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -142,10 +143,11 @@
                 <Button
                     android:id="@+id/Pelicuas"
                     android:text="@string/Pelicuas"
-                    android:background="#F976AA"
+                    android:background="@drawable/btn_personalizado"
                     android:textColor="#fff"
                     android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"></Button>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
