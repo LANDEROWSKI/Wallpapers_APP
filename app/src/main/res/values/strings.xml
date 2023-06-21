@@ -44,6 +44,10 @@
     <string name="Programacion">PROGRAMACIÓN</string>
     <string name="Pelicuas">PELÍCULAS/SERIES</string>
 
+    <!--MENU PARTE SUPERIOR DERECHA-->
+    <string name="Agregar">Agregar</string>
+    <string name="Vista">Vista</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
