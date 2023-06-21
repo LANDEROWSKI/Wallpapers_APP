@@ -10,10 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.erick.pg_project.CategoriasAdmin.AnimesA;
-import com.erick.pg_project.CategoriasAdmin.PeliculasA;
-import com.erick.pg_project.CategoriasAdmin.ProgramacionA;
-import com.erick.pg_project.CategoriasAdmin.VideosA;
+import com.erick.pg_project.CategoriasAdmin.AnimesA.AnimesA;
+import com.erick.pg_project.CategoriasAdmin.PeliculasA.PeliculasA;
+import com.erick.pg_project.CategoriasAdmin.ProgramacionA.ProgramacionA;
+import com.erick.pg_project.CategoriasAdmin.VideosA.VideosA;
 import com.erick.pg_project.R;
 
 

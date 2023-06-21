@@ -48,6 +48,46 @@
     <string name="Agregar">Agregar</string>
     <string name="Vista">Vista</string>
 
+    <!--AGREGAR ANIMES-->
+    <string name="NombreTXTAnimes">Nombre de Imagen</string>
+    <string name="NombreAnimes">Escribe Nombre Aquí</string>
+    <string name="VistaAnimes">0</string>
+    <string name="PublicarAnime">Publicar</string>
+
+    <!--ITEM ANIME-->
+    <string name="NombreImagenAnime"> -- </string>
+    <string name="VistaAnime"> -- </string>
+
+    <!--Agregar Pelicula-->
+    <string name="NombreTXTPeliculas">Nombre de Imagen</string>
+    <string name="NombrePeliculas">Escribe Nombre Aquí</string>
+    <string name="VistaPeliculas">0</string>
+    <string name="PublicarPelicula">Publicar</string>
+
+    <!--ITEM PELICULA-->
+    <string name="NombreImagenPelicula"> -- </string>
+    <string name="VistaPelicula"> -- </string>
+
+    <!--Agregar Programacion-->
+    <string name="NombreTXTProgramacions">Nombre de Imagen</string>
+    <string name="NombreProgramacions">Escribe Nombre Aquí</string>
+    <string name="VistaProgramacions">0</string>
+    <string name="PublicarProgramacion">Publicar</string>
+
+    <!--ITEM PROGRAMACION-->
+    <string name="NombreImagenProgramacion"> -- </string>
+    <string name="VistaProgramacion"> -- </string>
+
+    <!--Agregar VideoJuegos-->
+    <string name="NombreTXTVideojuegos">Nombre de Imagen</string>
+    <string name="NombreVideojuegos">Escribe Nombre Aquí</string>
+    <string name="VistaVideojuegos">0</string>
+    <string name="PublicarVideojuegos">Publicar</string>
+
+    <!--ITEM Videojuegos-->
+    <string name="NombreImagenVideojuego"> -- </string>
+    <string name="VistaVideojuego"> -- </string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

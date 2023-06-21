@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CategoriasAdmin.ProgramacionA.AgregarProgramacion">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/NombreTXTProgramacions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:id="@+id/NombreProgramacions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:hint="@string/NombreProgramacions"
+                android:layout_marginTop="10dp"></EditText>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/vista_ico"></androidx.appcompat.widget.AppCompatImageView>
+
+                <TextView
+                    android:id="@+id/VistaProgramacions"
+                    android:text="@string/VistaProgramacions"
+                    android:hint="@string/VistaAnimes"
+                    android:layout_width="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginStart="10dp"
+
+                    android:layout_height="wrap_content"
+                    ></TextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ImagenAgregarProgramacion"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/imagen_ico"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></androidx.appcompat.widget.AppCompatImageView>
+
+        <Button
+            android:id="@+id/PublicarProgramacion"
+            android:layout_marginTop="10dp"
+            android:text="@string/PublicarProgramacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/btn_personalizado"></Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
