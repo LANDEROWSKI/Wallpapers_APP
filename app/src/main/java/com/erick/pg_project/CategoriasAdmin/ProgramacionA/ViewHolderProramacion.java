@@ -67,12 +67,11 @@ public class ViewHolderProramacion extends RecyclerView.ViewHolder{
         //Controlar posibles errores
         try {
             //SI LA IMAGEN FUE TRAIDA EXITOSAMENTE
-            Picasso.get().load(imagen).into(ImagenProgramacion);
+            Picasso.get().load(imagen).placeholder(R.drawable.categoria).into(ImagenProgramacion);
 
         }catch (Exception e){
             //SI LA IMAGEN NO FUE TRAIDA EXITOSAMENTE
-            Toast.makeText(context, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
-
+            Picasso.get().load(R.drawable.categoria).into(ImagenProgramacion);
         }
     }
 }

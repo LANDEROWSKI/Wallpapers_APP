@@ -12,6 +12,21 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".Categorias.ControladorCD"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasCliente.ProgramacionCliente"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasCliente.VideojuegosCliente"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasCliente.AnimesCliente"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasCliente.PeliculasCliente"
+            android:exported="false" />
+        <activity
             android:name=".CategoriasAdmin.VideosA.AgregarVideojuegos"
             android:exported="false" />
         <activity

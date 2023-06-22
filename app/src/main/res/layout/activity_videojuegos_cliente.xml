@@ -6,11 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    tools:context=".CategoriasAdmin.AnimesA.AnimesA">
-    
+    tools:context=".CategoriasCliente.VideojuegosCliente">
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewAnime"
+        android:id="@+id/recyclerViewVideojuegosC"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
 
 </RelativeLayout>
